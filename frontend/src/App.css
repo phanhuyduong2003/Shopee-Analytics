@@ -1,0 +1,122 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+
+.section-block {
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.06);
+	border: 1px solid #ececec;
+	margin-bottom: 2.5rem;
+	padding: 2rem 1.5rem 1.5rem 1.5rem;
+	text-align: left;
+}
+.section-block h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+	color: #3a3a3a;
+}
+
+.chart-block {
+	background: #f8f9fa;
+	border-radius: 10px;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem 1rem 1rem 1rem;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.03);
+	border: 1px solid #e5e5e5;
+}
+.chart-block h2 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #555;
+}
+
+.dashboard {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.heatmap-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 1rem;
+}
+.heatmap-table th,
+.heatmap-table td {
+	border: 1px solid #e0e0e0;
+	padding: 0.3em 0.5em;
+	text-align: center;
+	font-size: 0.95em;
+}
+.heatmap-table th {
+	background: #f0f0f0;
+	font-weight: 600;
+}
+
+@media (max-width: 900px) {
+	.section-block {
+		padding: 1rem 0.5rem 1rem 0.5rem;
+	}
+	.chart-block {
+		padding: 1rem 0.5rem 0.5rem 0.5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	#root {
+		padding: 0.5rem;
+	}
+	.section-block {
+		padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+	}
+	.chart-block {
+		padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+	}
+	.heatmap-table th,
+	.heatmap-table td {
+		font-size: 0.8em;
+		padding: 0.15em 0.2em;
+	}
+}

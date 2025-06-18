@@ -1,0 +1,43 @@
+services:
+    generator:
+        container_name: generator
+        build: ./data-generator
+        volumes:
+            - ./data:/data
+        command: python generate.py
+
+    processor:
+        container_name: processor
+        build: ./data-processor
+        volumes:
+            - ./data:/data
+            - ./data-generator:/data-generator
+        depends_on:
+            - generator
+        command: python process.py
+        environment:
+            - PYTHONUNBUFFERED=1
+    chart-processor:
+        container_name: chart-processor
+        build: ./data-processor
+        volumes:
+            - ./data:/data
+            - ./data-generator:/data-generator
+        depends_on:
+            - processor
+        command: python chart-process.py
+        environment:
+            - PYTHONUNBUFFERED=1
+
+    frontend:
+        container_name: frontend
+        build: ./frontend
+        ports:
+            - "5173:5173"
+        depends_on:
+            - processor
+        volumes:
+            - ./frontend:/app
+            - /app/node_modules
+        environment:
+            - CHOKIDAR_USEPOLLING=true

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "shopee-analytics",
+  "private_key_id": "f6d2dca7fc63fe64ec5070e17ca70d920a21cd13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDh25qZ6oy6aZse\nq3Byw4U1D8dKp6wx5xCobdgDoPx6xrChKUQF4z59XACnyLapd0jeA/6s321XaiZP\nM93rKT7GEZZxad2VBYSXCxTv6VYdXtG8WGoOQSPg0G8+64xpYY6mG2zgkxS45SZ0\nQiVi9z8Y4dYczc/AP3m9IgISyRjyfjZlXecEhopOubXKTNbcUs4fzrkUbB3sHniA\n5Vf32gtWbpeswvAC6n8zwuHWzpeQ+XJpiVuhsFzAVqCj7p0U8YAPlhchAWpQbsJo\ng889xD9BiU0AmDUUCdrgYE8r7GJkZEkj84uYWFVFWC25LFBtENsgr5pxRWxuAhQo\nie2I8WBhAgMBAAECggEABXzmSAdNYD8uKXkyxtsY2sCgJUsnMYw4LlDYSZhJDOZU\nht9KO5a5Xzw+eNU1Q69guiJLNyHzqxwqw6G9P+2f4e9YojdXZBD/AdjfVfKrvhQe\ne67Yntw21guCfyXOjYX1EcoDTn6hvNoL4ecfN5p4h5nUhR0mxzio9C9GG8o+nK+9\nh0eM+add02wawAalwn/eAMQOGC0wZhlX+pg1y/xigxZ901e8hk0hNMn1buP2FODG\nhaQAQvvw8rdJ/vOPoy1a6YqtewtlE/6lewE5xXj1W2Ovn1sOpbAm9lu8rfYDxucm\nnc1V6U+O6W7KQiqi4iAONv4fQYippVYYBE7WHGsKUQKBgQD/x3XjVmJ5jd6K3LxZ\n15OcGol4JTJtXkoIY62pSCYSKoyH04SyLC5rI5+vrl/or/POlp92ET85fJ0C1Vwd\n5+H90M94Jhx94bSvG6ci5eImROKTXRaJn+P4W2GV/Jvb+MJPF7ypwqXieOaJfYKZ\nURcUQ7uQ/T8lI9eJTWwLOEs7SQKBgQDiDYeEKcP1ucfIFB+gsozgYr6H4xUarXYB\nK+kFL1h5K0sDYEKCemRvY49QFXq7Ott7l+IutpqLeuHCbAeH1Q7Z8a0R1eYYnp/m\n59f0DSwdnrFAzlWG10bNr40t3bygQ0QrRnVG7jRqXCw99IrvSzIpuVSdaNZ9ab6B\n153xp1ekWQKBgQDoGcmCKAtoHjLJc5B/Pj42M2Z3XdmqoRsxDbKyoEPbzDyFrI0H\nWUwt8L+hHezuK2xkFQ5Sh0gGFGwt/AqBIMBUID2D26GTIVNiawd5hX14GJ459wjS\njgLChbnB7t5H+C3qs7GBop4BKpCYRwpRseHtg6Ea6pN4UlPtxhG7BLRP8QKBgQC9\nkt0QUDpfq9LIj1/K05JjZ0wkB6OeQNRSvTFpQMBwtYbuKN7+L4hlBdidL7ZCqGSC\nrOhphofq6z3DX/ecyWfwDMa4y2pxQS4WZl5r9FQH7xr1n1SIhaeCPXQnf+p9eIwF\nwsv9lSzt+ai8uIV/ks9ZwGweqloeyPyURW/WxiEw2QKBgQCDFTP1rlgW0H3pmR0Z\ng63Y3mPpl5Z3uR99uQc4Zd00ELpoUkDKMZqiJyalcv4r/THx084ocRihDaSOuQFX\nD5J3xqY2WPba4nm+VxBTN2Uv38YKZzNONNuQ5768DTNSHLPUZdpUvYkGyqxhssqm\nsy+9xYfLIObTpNydavkoMvrhiA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@shopee-analytics.iam.gserviceaccount.com",
+  "client_id": "111139049089328844666",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40shopee-analytics.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
